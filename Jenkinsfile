@@ -1,4 +1,5 @@
 #!groovy
+
 pipeline {
   agent any
   
@@ -19,7 +20,7 @@ pipeline {
         sh 'npm test'
       }
     }
-    stage('Dev (Deploy)') 
+    stage('Dev (Deploy)') {
 
       environment {
         AWS_STAGE = 'dev'
@@ -30,3 +31,4 @@ pipeline {
       }
     }
   }
+}
