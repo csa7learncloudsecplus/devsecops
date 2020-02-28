@@ -26,4 +26,3 @@ sh 'serverless deploy -s dev'
 }
 }
 }
-}
