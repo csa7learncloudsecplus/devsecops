@@ -3,8 +3,8 @@ pipeline {
 agent any
 environment {
 AWS_REGION = 'eu-west-1'
-AWS_ENV = ''
-AWS_DOM = ''
+AWS_ENV = 'csa7'
+AWS_DOM = 'learncloudsecplus.net'
 }
 stages {
 stage('Build'){
